@@ -14,7 +14,7 @@ write.csv(polities, file="polities.csv",  row.names=FALSE)
 polities <- read.csv('polities.csv', header=TRUE)
 ##
 data <- read.table("PC1_traj_merged.csv", sep=",", header=TRUE)
-data[is.na(data)] <- 0 #This treats NA values as 0.
+data[is.na(data)] <- 0 #This treats NA values as 0. Should checek later to see how much this affects results
 data$MG<-data$MoralisingGods
 
 refcols <- c("NGA", "PolID","Time","MG")
