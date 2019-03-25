@@ -1,4 +1,4 @@
-#The following code was used for analyses in Whitehouse, Francois, Savage, et al., "Complex societies and doctrinal rituals precede moralizing gods throughout world history", with an "exportdat.csv" file scraped from the Seshat database on 19 Jan 2018.
+#The following code was used for analyses in Whitehouse, Francois, Savage..., Turchin (2019), Nature, "Complex societies precede moralizing gods throughout world history", with an "exportdat.csv" file scraped from the Seshat database on 19 Jan 2018.
 #This software was developed by Peter Turchin and Patrick Savage (Copyright 29 Jan 2018). For the general methodology underlying these analyses please refer to: 
 #Turchin, P. et al. Quantitative historical analysis uncovers a single dimension of complexity that structures global variation in human social organization. Proc. Natl. Acad. Sci. U. S. A. 115, E144-E151 (2018).
 #Turchin, P. Fitting dynamical regression models to Seshat data. Cliodynamics 9, (2018).  
@@ -16,7 +16,7 @@
 
 #and cite:
 
-#1) Whitehouse, Francois, Savage, et al., "Complex societies and doctrinal rituals precede moralizing gods throughout world history" (2019) Nature.
+#1) Whitehouse, Francois, Savage,...,Turchin, "Complex societies and doctrinal rituals precede moralizing gods throughout world history" (2019) Nature.
 
 #2) Turchin, P. et al. Quantitative historical analysis uncovers a single dimension of complexity that structures global variation in human social organization. Proc. Natl. Acad. Sci. U. S. A. 115, E144-E151 (2018).
 
