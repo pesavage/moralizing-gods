@@ -14,7 +14,7 @@ write.csv(polities, file="polities.csv",  row.names=FALSE)
 polities <- read.csv('polities.csv', header=TRUE)
 ##
 data <- read.table("PC1_traj_merged.csv", sep=",", header=TRUE)
-data[is.na(data)] <- 0 #This treats NA values as 0. Should checek later to see how much this affects results
+data[is.na(data)] <- 0 #This treats NA values as 0.
 data$MG<-data$MoralisingGods
 
 refcols <- c("NGA", "PolID","Time","MG")
@@ -35,7 +35,7 @@ for(i in 3:nrow(dat)){
 }
 RegrDat <- dat
 
-#### Calculate Space using the estimated d = 1000 km (suggested by Peter Turchin as default because this is approximate average distance between NGAs)
+#### Calculate Space using the estimated d = 1000 km (suggested by Peter Turchin as default because this is approximate average distance between NGAs - we later tested this with the range of parameters described in the paper and found that 1000 was indeed the optimal value)
 dpar <- 1000
 Space <- RegrDat[,1:4]
 Space[,4] <- NA
