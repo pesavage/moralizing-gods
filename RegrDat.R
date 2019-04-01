@@ -14,7 +14,7 @@ write.csv(polities, file="polities.csv",  row.names=FALSE)
 polities <- read.csv('polities.csv', header=TRUE)
 ##
 data <- read.table("PC1_traj_merged.csv", sep=",", header=TRUE)
-data[is.na(data)] <- 0 #This treats NA values as 0. Our paper makes the assumption that, given the nature of the historical and archaeological record, if there was no explicit evidence of moralizing gods we can treat them as being absent. The purpose of our logistic regression analysis was to explicitly account for temporal as well as geographical and cultural autocorrelation. Thus the goal was to focus on the transition from absence to presence of moralizing gods based on the best available evidence. 
+data[is.na(data)] <- 0 #This treats NA values as 0. Our paper makes the assumption that, given the nature of the historical and archaeological record, if there was no explicit evidence of moralizing gods we can treat them as being absent. The purpose of our logistic regression analysis was to explicitly account for temporal as well as geographical and cultural autocorrelation. Thus the goal was to focus on the transition from absence to presence of moralizing gods based on the best available evidence. (Comment edited March 2019 post-publication to clarify question raised by independent researchers) 
 data$MG<-data$MoralisingGods
 
 refcols <- c("NGA", "PolID","Time","MG")
