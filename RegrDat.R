@@ -14,7 +14,7 @@ write.csv(polities, file="polities.csv",  row.names=FALSE)
 polities <- read.csv('polities.csv', header=TRUE)
 ##
 data <- read.table("PC1_traj_merged.csv", sep=",", header=TRUE)
-data[is.na(data)] <- 0 #This treats NA values as 0. (For extremely extensive discussion of this single line of code, see critique by Beheim et al. (https://psyarxiv.com/jwa2n/) and response by Savage et al. (https://osf.io/preprints/socarxiv/xjryt). (Comment updated September 2019) 
+#This line formerly inappropriately converted NA values to 0 ("data[is.na(data)] <- 0”). This script and the raw data file (exportdat.csv) were corrected and this comment updated February 2020
 data$MG<-data$MoralisingGods
 
 refcols <- c("NGA", "PolID","Time","MG")
