@@ -182,7 +182,7 @@ for(i in 1:length(dat[,1])){
 }
 for(i in 1:length(dt[,1])){   if(is.na(dt[i,4])){dt[i,4:length(dat)] <- dt[i-1,4:length(dat)]} }
 dat <- dt
-
+dat[101, 29:31]<-c(1,0,1) #This corrects an error by which the InDecKg polity was incorrectly assigned beliefs in moralizing gods from the InDecIA polity
 write.csv(dat, file="PC1_traj.csv",  row.names=FALSE)
 
 
