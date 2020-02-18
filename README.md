@@ -4,7 +4,7 @@
 
 Whitehouse, H., François, P., Savage, P. E., Currie, T. E., Feeney, K. C., Cioni, E., Purcell, R., Ross, R. M., Larson, J., Baines, J., ter Haar, B., Covey, A., Turchin, P. (2019). Complex societies precede moralizing gods throughout world history. Nature.
 
-with an "exportdat.csv" file scraped from the Seshat database on 10 Jan 2018.
+with an "exportdat.csv" file scraped from the Seshat database on 10 Jan 2018. A version of this exportdat.csv file correcting values initially mislabeled as “unknown” was uploaded and a correction notice submitted to Nature in February 2020.
 
 ######
 CC By-NC SA License
